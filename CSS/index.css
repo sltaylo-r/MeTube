@@ -1,0 +1,430 @@
+
+body {
+    height: 92vh;
+    margin: 0;
+    background-color: white;
+}
+
+img {
+    width: 90%;
+    height: 80%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #808080;
+    color: white;
+}
+
+.topnav .search-container {
+    padding-left: 30%;
+    float: left;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
+
+.search-bar {
+    padding: 12px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 60vw;
+    /* dislpay: inline; */
+}
+
+.search-box {
+    width: 85%;
+}
+
+.search-button {
+    float: left;
+    width: 15%;
+}
+
+.navigation-list-top {
+    width: 30vw;
+    text-align: right;
+}
+
+.content-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*              */
+/* LEFT content */
+/*              */
+
+.left-column {
+    float: left;
+    height: 100%;
+    width: 15%;
+    background-color: #f2f2f2;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: #ddd;
+}
+
+li a:active {
+    background-color: #808080;
+}
+
+/*               */
+/* RIGHT content */
+/*               */
+
+/* Browse Page Stuff */
+
+.right-column {
+    float: right;
+    width: 85%;
+    height: 94vh;
+    background-color: white;
+    float: left;
+}
+
+.wrapper {
+    margin-right: -20px;
+}
+
+.video-block-browse {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 20px;
+    float: left;
+}
+
+.video-thumbnail-browse {
+    width: 90%;
+    height: 80%;
+    /* background-color: black; */
+}
+
+.video-title-browse {
+    width: 90%;
+    height: 20%;
+    word-wrap: normal;
+}
+
+/* End of Browse Page Stuff */
+
+/* Search Page Stuff */
+
+.video-block-search {
+    box-sizing: border-box;
+    width: 80%;
+    padding: 20px;
+    float: left;
+}
+
+.video-thumbnail-search {
+    width: 20%;
+    height: 80%;
+    background-color: black;
+}
+
+.video-search-text {
+    margin-top: -15px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: auto;
+}
+
+.title-search {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.description-search {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* End of Search Page Stuff */
+
+/* Channel Page Stuff */
+
+
+
+/* End of Channel Page Stuff */
+
+/* New Video Page Stuff */
+
+.new-video-container {
+    background-color: #808080;
+    width: 40%;
+    height: 60%;
+    padding: 10%;
+    padding-top: 1%;
+    margin-left: 20%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.upload-video {
+    padding-top: 10%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+/* End of New Video Page Stuff */
+
+/* Profile Page Stuff */
+
+.profile-page-header {
+    background-color: #808080;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    height: 15%;
+}
+
+.profile-picture {
+    margin-left: 5%;
+    width: 15vw;
+    height: 15vh;
+    background-color: black;
+}
+
+/* End of Profile Page Stuff */
+
+/* Login Page Stuff */
+
+.login-box {
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 40%;
+}
+
+.login-p {
+    text-align: center;
+}
+
+.login-form {
+    padding: 10%;
+    margin-top: 20%;
+}
+
+.login-username {
+    padding-top: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.login-password {
+    padding-top: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.login-wrapper {
+    width: 100%;
+}
+
+.regular-btn {
+    width: 25%;
+    padding: 10px 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 12px;
+    background-color: #2196F3;
+}
+
+#loginButton {
+    float: left;
+    margin-left: 20%;
+}
+
+#registerLinkButton {
+    float: right;
+    margin-right: 20%;
+}
+
+
+/* End of Login Page Stuff */
+
+/* Register Page Stuff */
+
+.register-box {
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 40%;
+}
+
+.register-p {
+    text-align: center;
+}
+
+.register-form {
+    padding: 10%;
+    margin-top: 20%;
+}
+
+.register-username {
+    padding-top: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.register-email {
+    padding-top: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.register-fname {
+    padding-top: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.register-lname {
+    padding-top: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.register-password {
+    padding-top: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.register-wrapper {
+    width: 100%;
+}
+
+.regular-btn {
+    width: 25%;
+    padding: 10px 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 12px;
+    background-color: #2196F3;
+}
+
+#createButton {
+    float: left;
+    margin-left: 20%;
+}
+
+#loginLinkButton {
+    float: right;
+    margin-right: 20%;
+}
+
+/* End of Register Page Stuff */
+
+/* Start of Dropdown Stuff for Browse Page */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    cursor: auto;
+    display: none;
+    margin-left: 5%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.active {
+    background-color: #808080;
+}
+
+.header {
+    background-color: #f1f1f1;
+    border: 1px solid rgb(0, 0, 0);
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.sort-button {
+    background-color: #f1f1f1;
+    border: none;
+    color: black;
+    padding: 4px 4px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.sort-button:hover {
+    background-color: #ddd;
+}
+
+.messages-container {
+    width: 100%;
+}
+
+.message-form {
+    width: 100%;
+    height: 50%;
+}
+
+.messages-textarea {
+    width: 50%;
+    height: 50%;
+}
