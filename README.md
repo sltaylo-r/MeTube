@@ -18,5 +18,12 @@ MeTube is a YouTube clone created for my database systems final project. This pr
 - Playlists
 - Favorite list
 
+## Database Info
+![Database Schema](https://github.com/sltaylo-r/MeTube/blob/main/DatabaseSchema.png)
+This is the overall structure of the MySQL database.
+
+![Database reference ER diagram](https://github.com/sltaylo-r/MeTube/blob/main/ER_Diagram.png)
+This is the reference diagram of which the MySQL database was built.
+
 ## Notes
 If you decide to use this project, you will need to reconfigure the php.ini file on your Apache server. This is due to the video upload feature requiring a larger maximum filesize for uploads than the default 2MB used by Apache.
